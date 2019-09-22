@@ -1,0 +1,18 @@
+O que é Babel : O Babel é um compilador JavaScript gratuito e de código aberto usado principalmente para converter o código ECMAScript 2015+ (ES6 +) em uma versão compatível com versões anteriores do JavaScript que pode ser executada por mecanismos JavaScript mais antigos . Babel é uma ferramenta popular para usar os recursos mais recentes da linguagem de programação JavaScript em navegadores ou ambientes atuais e mais antigos.
+
+Algumas coisas que o Babel pode fazer:
+
+Sintaxe de transformação
+Recursos de polyfill ausentes no ambiente de destino (através de @ babel / polyfill )
+Transformações do código-fonte (codemods);
+
+~~ ** ~~ ** ~~ ** ~~ ** ~~ ** ~~ ** ~~ ** ~~ ** ~~ ** ~~ ** ~~ ** ~~ ** ~~ ** ~~ ** ~~
+
+O que e JSX : JSX é uma extensão da sintaxe do JavaScript que lembra XML. Eis um exemplo:
+
+ReactDOM.render(
+  <h1>Welcome React, TutsPlus !!</h1>,
+  document.getElementById('container')
+);
+
+JSX parece HTML mas é uma mistura de JavaScript e HTML. O código acima renderiza a mensagem dentro da tag h1 no elemento container. JSX é mais rápido que JavaScript por aplicar otimizações ao compilar o código fonte. Também é preferível JSX já que é mais fácil que usar JavaScript puro.
